@@ -1,0 +1,691 @@
+@font-face {
+font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: normal;
+src: local('Bebas Neue'), url('BebasNeue.woff') format('woff');
+}
+
+
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+ 
+ a{
+ 	text-decoration: none;
+ 	color:#969696;
+
+ }
+
+
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+	
+}
+
+.row {
+	margin: 30px 0;
+	margin-left: -30px;
+}
+
+.col4 {
+	width: 370px;
+	
+	margin-left: 30px;
+	float:left;
+}
+
+.col7 {
+		width: 672px;
+		margin-left: 30px;
+		float: left;
+}
+
+
+.col8 {
+	width: 740px;
+	float: left;
+	margin-left: 30px;
+}
+
+h3{
+	font-size: 36px;
+	font-family: 'Economica', sans-serif;
+	
+}
+
+
+
+
+/* header */
+
+header {
+	height: 141px;
+	background: #f1f0f1;
+	position: relative;
+
+}
+
+header .logo {
+	background: #2e2d2d;
+	width: 270px;
+	height: 113px;
+	position: absolute;
+	bottom:0;
+	color:white;
+	text-align: center;
+
+
+
+}
+
+.firmname{
+	float: left;
+	margin-left: 26px;
+    margin-top: 35px;
+	text-transform: uppercase;
+	font: 48px "Bebas Neue";
+	font-weight: bold;
+	border-right: 1px solid #4c4b4b;
+	padding-right: 28px;
+
+
+	
+}
+
+.restaurant {
+	float:right;
+	margin-right: 15px;
+	margin-top: 50px;
+	/*margin-left: 40px;*/
+	font-size: 18px;
+	font-family: 'Economica', sans-serif;
+	}
+
+.menu {
+float: right;
+padding-top: 80px;
+}
+
+
+.menu ul {
+padding:0;
+margin: 0;
+
+}
+
+.menu li {
+display: inline;
+color:#727171;
+margin-right: 30px;
+font-family: 'Economica', sans-serif;
+font-size: 20px;
+font-weight: bold;
+}
+
+.menu li a:hover {
+	color: #aeceae;
+}
+
+.active{
+	color: #aeceae;;
+}
+
+
+/* end header */
+
+/* content*/
+
+
+
+.services .col4 {
+	height: 610px;
+	margin-top: 30px;
+}
+
+.services .col4:nth-child(1) {
+	background: #aad4b3;
+}
+
+.services .col4:nth-child(2) {
+	background: #86cdd7;
+}
+
+.services .col4:nth-child(3) {
+	background: #ffe5b9;
+}
+
+.info {
+	height: 305px;
+	text-align: center;
+	color:#fff;
+	padding-top:40px;
+	font-size: 36px;
+	font-family: 'Economica', sans-serif;
+
+}
+
+.info a {
+	color:#fff;
+	font-size: 20px;
+}
+
+
+.number .col4 {
+	text-align: center;
+
+
+}
+
+.num {
+	width: 121px;
+	height: 121px;
+	border:2px solid #969696;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin-top: 50px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 40px;
+	color:#b2b2b2;
+	text-align: center;
+	padding-top: 30px;  /*ПРАВИЛЬНО ИЛИ НЕТ????*/
+}
+
+.number p {   /*Обращаться к классу number иил num??*/
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	color: #969696;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	line-height: 20px;
+
+}
+
+.number a {  /*Обращаться к классу number иил num??*/
+	font: 20px 'Economica', sans-serif;
+	color:#969696; /*?*/
+	border: 1px solid #969696;
+	padding: 12px 30px;
+	
+}
+
+
+.welcome {
+	
+	background: #f1f0f1;
+	margin-top: 50px;
+
+
+}
+
+.col6 {
+	float: left;
+	
+}
+
+.welcome h3 {
+	font-size: 36px;
+	font-family: 'Economica', sans-serif;
+	
+	color:#535151;
+	padding-bottom: 31px
+}
+
+.welcome p {
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif; /*НУЖНО СДЕЛАТЬ ОБЩИЙ КЛАСС ДЛЯ АБЗАЦОВ*/
+	color:#969696;
+	padding-bottom: 35px;
+}
+
+.welcome a {
+	font: 20px 'Economica', sans-serif;
+	color:#969696; /*?*/
+	border: 1px solid #969696;
+	padding: 12px 30px;
+
+}
+
+.welcome .col6:nth-child(1) {
+	padding: 50px 0 50px 100px ;
+	width: 585px;
+	
+}
+
+.welcome .col6:nth-child(2) {
+	padding: 50px 0 50px 37px;
+	width: 585px; 
+
+}
+
+
+
+.dishes .col4 {
+	margin-top: 50px;
+
+}
+
+.dishes h3 { /*СКОРЕЕ ВСЕГО ТАК НЕ ПРАВИЛЬНО*/
+	font-size: 36px;
+	font-family: 'Economica', sans-serif;
+	
+	color:#535151;
+	margin-top: 43px;
+	text-align: left;
+	margin-left: 30px;
+}
+
+
+
+
+.dishes .add {   /*КАК ОТЦЕНТРИРОВАТЬ ПО ВЕРТИКАЛИ?*/
+	height: 36px;
+	width: 36px;
+	background: #2e2d2d;
+	font-size: 30px;
+	font-family: 'Open Sans Bold', sans-serif;
+	color:#fff;
+	padding-top: 3px;
+	/*font-weight: bold;*/
+	text-align: center;
+	float: right;
+	margin-top: 30px;
+	margin-bottom: 100px;
+}
+
+
+
+
+
+.news h3 {
+	font-size: 36px;
+	font-family: 'Economica', sans-serif;
+	color:#535151;
+	margin-bottom: 28px;
+}
+
+.news span {
+	 
+	font-size:16px;
+	font-family: 'Open Sans', sans-serif;
+	color:#535151;
+	font-weight: 700;
+	padding-bottom: 15px;
+
+}
+
+.news p{
+	float: right;
+
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+	width: 202px;
+	color: #969696;
+	margin-right: 25px;
+
+}
+
+
+.news .data {
+	float: left;
+}
+
+.news  .data1, .data2 {
+	width: 70px;
+	height: 91px;
+	background: #000;
+	float: left;
+	font-size: 24px;
+	color:#fff;
+	font-family: 'Economica', sans-serif;
+	font-weight: 600;
+	text-align: center;
+	padding-top: 16px;
+
+
+}
+
+.news  .data1 {
+	margin-bottom: 30px;
+}
+
+
+.news .data p {
+	margin-left: 30px;
+	font-size: 14px;
+	width: 240px;
+}
+
+
+.news .hours {
+	width: 371px;
+	height: 68px;
+	background: #303030;
+	margin-bottom: 3px;
+	font-family: 'Economica', sans-serif;
+	color:#fff;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 15px;
+
+
+}
+
+
+/*MENU*/
+
+
+/*.food .col4 {
+	
+	background: #f1f0f1;
+}*/
+
+
+.food .col4 {
+	height: 489px;
+	background: #f1f0f1;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.food p {
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	color:#969696;
+	padding-top: 30px;
+	padding-left: 22px;
+	padding-bottom: 30px;
+
+}
+
+.food a {
+	font: 20px 'Economica', sans-serif;
+	color:#969696; /*?*/
+	border: 1px solid #969696;
+	padding: 8px 27px;
+	margin-left: 22px;
+	font-weight: bold;
+}
+
+.food span {
+	font-size: 18px;
+	padding-top: 29px;
+}
+
+.food a:hover {
+	color: #aeceae;
+}
+
+
+
+
+
+		/*RESERVATION*/
+
+.reservation  {
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.reservation h3 {
+	color: #535151;
+}
+
+
+.reservation .col4 h3 {
+	/*margin-left: 30px;
+	margin-top: 48px;
+	;*/
+	margin-top: 20px;
+	margin-bottom: 27px;
+	color: #535151;
+}
+
+
+
+
+
+
+.reservation .table {
+	color:#969696;
+	font-size:14px;
+	font-weight: 300;
+	margin-top: 95px;
+	margin-right: 40px;
+}
+
+
+
+
+
+
+.reservation span {
+	font-size: 18px;
+	/*font-weight: 300;*/
+}
+
+
+
+
+.reserve p {
+	margin-bottom: 56px;
+}
+
+.reserve h3 {
+	color: #535151;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+
+
+
+.reservation  a {
+	font: 20px 'Economica', sans-serif;
+	color:#969696; /*?*/
+	border: 1px solid #969696;
+	padding: 8px 27px;
+	font-weight: 400;
+
+}
+
+.reservation  a:hover{
+	color: #aeceae;
+}
+
+
+
+
+
+form {
+	
+	color:#737272;
+	font-size: 14px;
+	font-weight: 400;
+
+}
+
+#name, #e-mail {
+	width: 355px;
+	height: 30px;
+	margin-bottom: 12px;
+
+
+}
+
+ #e-mail::-webkit-input-placeholder{
+ 		color:#737272;
+ 		
+ }
+
+#name::-webkit-input-placeholder {
+		color:#737272;
+}
+
+#message::-webkit-input-placeholder {
+		color:#737272;
+}
+
+
+#checkin, #checkout {
+	height: 30px;
+	width: 270px;
+	margin-bottom: 12px;
+}
+
+#checkin {
+	margin-left:27px;
+}
+
+#checkout {
+	margin-left:17px;
+
+}
+
+#number {
+	margin-right: 39px;
+	width: 96px;
+	height: 30px;
+}
+
+#number2 {
+	width: 96px;
+	height: 30px;
+	margin-left: 10px;
+	margin-bottom: 40px;
+}
+
+form .number {
+	margin-right:10px;
+
+}
+
+#message {
+	width: 365px;
+	height: 143px;
+	margin-left: 26px;
+	font-size: 14px;
+	margin-bottom:40px;
+	margin-left: 15px;
+}
+
+.reservation form a {
+	margin-right: 37px;
+	float: right;
+	
+
+}
+
+
+
+.reservation .col8 {
+	color:#969696;
+	font-size:14px;
+	font-weight: 300;
+	width: 750px;
+	margin-top: 20px;
+}
+
+.reservation .col8 h3 {
+	margin-bottom: 15px;
+}
+
+
+.reservation .col8 span {
+	font-size: 18px;
+}
+
+ .reservation .col8 p {
+	margin-bottom: 35px;
+}
+
+/*BLOG*/		
+
+.blog .col7 {
+	margin-top: 30px;
+}
+
+.blog  {
+	color:#969696;
+	font-size:14px;
+	font-weight: 300;
+	width: 750px;
+	margin-top: 20px;
+	font-family: 'Open Sans', sans-serif;	
+
+}
+
+.blog span {
+		font-size:18px;
+		color: 	#535151;
+		display: block;
+		margin-bottom: 30px;
+	
+}
+
+.blog p {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	
+}
+
+.blog a {
+	font: 20px 'Economica', sans-serif;
+	color:#969696; /*?*/
+	border: 1px solid #969696;
+	padding: 8px 27px;
+	font-weight: bold;
+
+}
+
+
+
+/*END BLOG*/
+
+
+}
+/* end content*/
+
+
+
+
+
+
+
+
+
+footer {
+	height: 141px;
+	background: black;
+
+}
+
+footer .col4 {
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 70px;
+	font-size: 16px;
+
+
+}
+
+
+
+
+
+
+
+
