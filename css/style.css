@@ -1,8 +1,14 @@
 @font-face {
-font-family: 'Bebas Neue';
-font-style: normal;
-font-weight: normal;
-src: local('Bebas Neue'), url('BebasNeue.woff') format('woff');
+    font-family: 'bebas_neueregular';
+    src: url('fonts/bebasneue_regular-webfont.eot');
+    src: url('fonts/bebasneue_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/bebasneue_regular-webfont.woff2') format('woff2'),
+         url('fonts/bebasneue_regular-webfont.woff') format('woff'),
+         url('fonts/bebasneue_regular-webfont.ttf') format('truetype'),
+         url('fonts/bebasneue_regular-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 
@@ -622,7 +628,7 @@ form .number {
 	color:#969696;
 	font-size:14px;
 	font-weight: 300;
-	width: 750px;
+	/*width: 750px;*/
 	margin-top: 20px;
 	font-family: 'Open Sans', sans-serif;	
 
@@ -648,15 +654,121 @@ form .number {
 	border: 1px solid #969696;
 	padding: 8px 27px;
 	font-weight: bold;
-
 }
+
+.blog .col4 {
+	margin-left: 120px;
+	margin-top: 30px;
+	float: right;
+}
+
+.blog h3 {
+	color:  #535151;
+	margin-bottom: 14px;
+}
+
+
+ul {
+	padding-left: 20px;
+	color: #535151;
+	font-size: 16px;
+}
+
+
+.blog .recent {
+	padding-top: 95px;
+}
+
+
+
+.recent span {
+	float: right; 
+	padding-right: 70px;
+	padding-top: 10px;
+}
+
+.recent img {
+		padding-top: 10px;
+		padding-bottom: 45px;
+}
+
+
+
+
 
 
 
 /*END BLOG*/
 
 
+
+/*CONTACTS */
+
+
+
+.map h3 {
+	margin-top: 40px;
+	margin-bottom: 25px;
 }
+
+.map p {
+	float:right;
+}
+
+.map {
+	margin-bottom: 10px;
+}
+
+.form {
+	width: 100%;
+	height:592px;
+	background: #f1f0f1;
+}
+
+
+.form h3 {
+	padding-top: 43px;
+	margin-bottom: 10px;
+}
+
+#fio, #email, #phone{
+	padding: 10px 85px 10px 20px;
+	margin-right: 10px;
+	margin-top:15px;
+}
+
+#message1 {
+	margin-top: 20px;
+	padding: 10px 800px 300px 20px;
+}
+
+
+.form input[type="reset"], .form input[type="submit"] {
+
+	font: 20px 'Economica', sans-serif;
+	color:#969696; /*?*/
+	border: 1px solid #969696;
+	padding: 8px 27px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-right: 10px;
+	background: #f1f0f1;
+}
+
+
+.form input[type="reset"] {
+	margin-left: 810px ;
+}
+
+
+
+
+
+
+/*end CONTACTS*/
+
+
+
 /* end content*/
 
 
@@ -669,21 +781,82 @@ form .number {
 
 footer {
 	height: 141px;
-	background: black;
+	background: #adacac;
 
 }
 
 footer .col4 {
 	color:white;
 	font-family: 'Open Sans', sans-serif;
-	padding-top: 70px;
+	padding-top: 46px;
 	font-size: 16px;
+	font-weight: 300;
+}
+
+  /*SOCIAL BTNS*/
+
+.links {
+	float:right;
+	padding-top: 45px;
+
+}
+
+.social {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background: #dddddd;
+	font-family: FontAwesome;
+    font-weight: normal;
+   	font-style: normal;
+   	/*display: inline-block;*/
+   	text-align: center;
+   	font-size: 25px;
+	color: #fff;
+	float: left;
+	margin-right: 16px;
+	margin-top: 10px;
+}
+
+.social:hover {
+	color:#505050;
+}
 
 
+.tw {
+	padding-top: 14px;
+
+}
+
+.fb, .ggl, .inst {
+	padding-top: 13px;
 }
 
 
 
+.tw::after {
+	content: '\f099';
+}
+
+
+
+.fb::after {
+	content: '\f09a';
+}
+
+.ggl::after {
+	content: '\f0d5';
+
+}
+
+.inst::after {
+	content: '\f16d ';
+}
+
+
+
+
+ /*SOCIAL BTNS END*/
 
 
 
